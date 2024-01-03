@@ -293,7 +293,7 @@ header {
     display: inline-block;
     padding: 10px 20px;
     font-size: 16px;
-    background-image: url(gmaps\ icons.png);
+    background-image: url(assets/gmaps\ icons.png);
     background-size: 60%;
     background-repeat: no-repeat;
     background-position: center;
@@ -308,7 +308,7 @@ header {
     display: inline-block;
     padding: 10px 20px;
     font-size: 16px;
-    background-image: url(waze\ icons.png);
+    background-image: url(assets/waze\ icons.png);
     background-size: 90%;
     background-repeat: no-repeat;
     background-position: center;
