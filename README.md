@@ -7,3 +7,5 @@ Mahallah Ali is one of International Islamic University Malaysia ( IIUM ) dormit
 1. Website Design: Creating an aesthetically pleasing and user-friendly website that reflects the essence of Mahallah Ali.
 1. Mobile Responsiveness: Ensuring the website is accessible on various devices for maximum reach.
 1. Information: Compiling comprehensive information about the mahallah's facilities and sevices, location and the Mahallah’s management team.
+
+Live view (here)[https://zactsm.github.io/Mahallah-Ali-Website/web.html]
