@@ -17,6 +17,20 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.header .logo img {
+    width: 150px;
+}
+
+.header .hamburger-icon img {
+    padding-right: 40px;
 }
 
 .main-content {
@@ -26,9 +40,13 @@ header {
     font-size: 450%;
     color: white;
     background-image: url(assets/bgimg.png);
-    background-size: cover;
+    background-size: 100% auto;
     background-position: center;
     height: 100%;
+}
+
+.welcome-text {
+    padding-top: 55px;
 }
 
 .main-content-p {
@@ -92,9 +110,8 @@ header {
 }
 
 .review-pic-container {
-    width: 100%;
+    width: 99%;
     height: 700px;
-    /*change here*/
     background-color: #fafafa;
     display: flex;
     align-items: flex-start;
@@ -117,7 +134,7 @@ header {
 .right-section {
     flex: 1;
     text-align: center;
-    padding-top: 150px;
+    padding-top: 75px;
     font-size: 170%;
 }
 
@@ -148,17 +165,26 @@ header {
 }
 
 .review-right {
-    padding: 35px 90px;
+    padding: 35px 5vw;
     color: #8b8b8b;
     text-align: left;
-    max-width: 500px;
-    font-size: 85%;
+    max-width: 90vw;
+    font-size: 2vw;
+
+    @media screen and (min-width: 1200px) {
+        font-size: 1.6vw;
+    }
+
+    @media screen and (min-width: 1600px) {
+        font-size: 1.8vw;
+    }
 }
 
 .services-container {
     width: 100%;
-    height: 530px;
     background-color: #fafafa;
+    text-align: center;
+    padding: 20px 0;
 }
 
 .services-text {
@@ -166,35 +192,33 @@ header {
     font-size: 200%;
     font-weight: bold;
     text-align: center;
-    padding-top: 1%;
 }
 
-.services-image-container {
+.services-content {
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
     align-items: center;
-    margin: 20px auto;
+    margin-top: 20px;
 }
 
-.services-image-container img {
-    max-width: 100%;
-    padding: 0 4%;
-    margin-top: 90px;
-}
-
-.services-text-container {
-    color: #1a1a1a;
-}
-
-.services-text-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border: 0px solid #ccc;
+.services-item {
+    width: 22%;
     padding: 10px;
-    margin: 0 9.4%;
-    max-width: 6000px;
-    font-size: 140%;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.services-item img {
+    max-width: 90%;
+    height: auto;
+}
+
+.services-desc {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #1a1a1a;
+    font-size: 150%;
 }
 
 .pic-container {
@@ -291,7 +315,7 @@ header {
 
 .gmaps-button {
     display: inline-block;
-    padding: 10px 20px;
+    padding: 10px 35px;
     font-size: 16px;
     background-image: url(assets/gmaps\ icons.png);
     background-size: 60%;
@@ -306,7 +330,7 @@ header {
 
 .waze-button {
     display: inline-block;
-    padding: 10px 20px;
+    padding: 10px 35px;
     font-size: 16px;
     background-image: url(assets/waze\ icons.png);
     background-size: 90%;
