@@ -94,7 +94,7 @@ header {
     background-image: url(assets/bgimg.png);
     background-size: 100% auto;
     background-position: center;
-    height: 100vh;
+    height: 800px;
 }
 
 .welcome-text {
